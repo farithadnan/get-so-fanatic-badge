@@ -12,7 +12,7 @@ Most of the steps in the [article](https://medium.com/coders-do-read/earn-the-fa
 	driver.find_element(By.LINK_TEXT, "Log in").click()
 	```
 1. You might encounter an "IP address mismatch" error when running the `heroku login` command. If so, use `heroku login -i` instead.
-	- If your **Heroku** account is set up with multi-factor authentication, you may need to use your Heroku API key as the password, found in your account settings, instead of your account password. Otherwise, you may get an error.
+	- If your **Heroku** account is set up with multi-factor authentication, you may need to use your Heroku API key as the password (found in your account settings), instead of your account password. Otherwise, you may get an error.
 2. Alexandru suggests installing **Chrome** and **ChromeDriver** by defining two buildpacks within our app using the provided command. However, this approach is no longer valid due to a version mismatch between Chrome and ChromeDriver. To resolve this issue, we should use the following command instead:
 	```bash
 	heroku buildpacks: add https://github.com/heroku/heroku-buildpack-chrome-for-testing
