@@ -24,8 +24,8 @@ If you apply the changes above, you might be able to run and deploy the script w
 
 ## Quick start
 
-1. Make sure you have already installed **Python**,**pip**, **Chrome**.
-2. Run the command below to install all the dependecies from **requirements.txt**.
+1. Make sure you have already installed **Python**, **pip** and **Chrome**.
+2. Run the command below to install all the dependencies from **requirements.txt**.
 ```sh
     pip install -r requirements.txt
 ```
